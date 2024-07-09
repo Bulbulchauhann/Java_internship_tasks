@@ -1,0 +1,6 @@
+difference between primitive and non primitive datatype
+
+1. primitive check dataype and values, reference object check reference instead of values
+
+let and const cannot be used outside block scope
+var does not have any scope but if it is declared in a function , it cannot be used outside that function scope
