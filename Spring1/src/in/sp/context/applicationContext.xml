@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+   <!--  <bean class = "in.sp.beans.Skill" id="s1">
+    <property name="web" value="MEAN"></property>
+      <property name="cloud" value="AWS"></property>
+      <property name="ai" value="Python"></property>
+    </bean> -->
+    
+    <bean class="in.sp.beans.skill" id="s1">
+    <constructor-arg value="MEAN, Django"></constructor-arg>
+    <constructor-arg value="IBM Cloud, AWS"></constructor-arg>
+    <constructor-arg value="Python, "></constructor-arg>
+    </bean>
+    
+    
+    <bean class="in.sp.beans.Emp1" id="user1">
+      <property name="name" value="swati"></property>
+      <property name="mail" value="swati22@gmail.com"></property>
+      <property name="phone" value="8979695949"></property>
+      <property name="skill" ref="Skill"></property>    
+    </bean>    
+
+</beans>
