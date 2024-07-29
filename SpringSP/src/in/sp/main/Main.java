@@ -13,8 +13,13 @@ public class Main {
 //		Student std = new Student();
 //		std.display(); //object created by context file
 		
-		Student std = (Student) cxt.getBean("stdId");
-		std.display();		
+		Student std1 = (Student) cxt.getBean("stdId1");
+		std.display();	
+
+		System.out.println("----------------");
+
+		Student std2 = (Student) cxt.getBean("stdId2");
+		std.display();	
 	}
 }
 
