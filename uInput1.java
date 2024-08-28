@@ -14,11 +14,6 @@ public class uInput1 {
         // } else {
         //     System.out.println("hehehe gareeb");
         // }
-
-        //byte input
-        // System.out.print("Age likh : ");
-        // byte a = in.nextByte();
-        // System.out.println("Your age is : ");
        
         // long input
         // System.out.println("Enter your digits : ");
