@@ -3,9 +3,9 @@ class math{
         return a + b;
     }
 
-    public int pro (int a, int b){
-        return a * b;
-    }
+    // public int pro (int a, int b){
+        // return a * b;
+    // }
 }
 
 public class Classes2 {
