@@ -1,7 +1,6 @@
 public class Methods {
 
-    static String hello(){
-        // System.out.println("Hello World!!!");
+    static String hello();
         return ("hello");
         // return (109);
         String a = "Nashit";
