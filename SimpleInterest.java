@@ -1,5 +1,3 @@
-//24-May-2024/  Task-5/ Calculating Simple Interest
-
 import java.util.Scanner;
 
 public class SimpleInterest {
