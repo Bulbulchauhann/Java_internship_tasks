@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Work on data-type</h1>
+    <script>
+        console.log("Welcome to JavaScript");
+        document.write("Welcome to JavaScript" + "<br>");
+
+        //primitive data type--------------------------------------------
+
+        //number
+        var a = 5;        
+        document.write(a +  " - " + typeof a + "<br>");
+
+        //float
+        let marks = 23893.23;         
+        document.write(marks +  " - " + typeof marks + "<br>"); //will show number datatype
+
+        //string
+        let name = "bulbul";
+        document.write(name + " - " + typeof name + "<br>");
+
+        //character
+        let ch = 'q';
+        document.write(ch + " - " + typeof ch + "<br>");  //will show string datatype
+
+        //boolean true/false
+        let isactive = true;
+        document.write(isactive + " - " + typeof isactive + "<br>");
+
+        //null
+        let b = null;
+        document.write(b + " - " + typeof b + "<br>");
+
+        //symbol
+        let c = Symbol();
+        document.write(typeof c + "<br>");
+
+        //undefined
+        let d;
+        document.write( typeof d + "<br>");
+
+        //user defined datatype----------------------------------
+
+        //ref variable
+        let names = ["bulbul", " pooja", " vivek", " rahul "];
+        document.write(names + " - " + typeof names + "<br>");
+
+        //object
+        let student1 = {
+            name: "Bulbul",
+            age: 23,
+            add : "Bangalore",
+            rollno : 4
+        }
+        document.write(student1 + " - " + typeof student1 + "<br>");
+
+       
+
+
+
+
+    </script>    
+</body>
+</html>
