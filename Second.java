@@ -8,7 +8,7 @@ public class Second {
     String c = " Chauhan";
     String d = " from Bangalore.";
     String e = "Bulbul Singh Chauhan";
-    System.out.println(e.replace("u", "U"));
+    System.out.println(e.replace("g", "G"));
     // System.out.println(e.replaceFirst("l", "L"));
     // System.out.println(e.replaceAll("a", "A"));
 
