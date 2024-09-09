@@ -47,8 +47,8 @@ public class uInput1 {
         // System.out.print("Enter a number : ");
         // int num = in.nextInt();
 
-        // for (int i = 0; i<= 10; i++){
-        //     System.out.println(num*i);
-        // }
+        for (int i = 0; i<= 10; i++){
+            System.out.println(num*i);
+        }
     }
 }
