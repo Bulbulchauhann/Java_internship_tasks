@@ -1,5 +1,4 @@
 package com.bulbul;
-
 import java.util.Scanner;
 
 public class StringEg {
