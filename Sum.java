@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-       // int ans = sum2();
-       // System.out.println(ans);
-
+       
         int ans = sum3(20,30);
         System.out.println(ans);
 
