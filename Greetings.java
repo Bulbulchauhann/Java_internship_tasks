@@ -2,7 +2,7 @@ package com.bulbul;
 
 public class Greetings {
     public static void main(String[] args) {
-//        greeting();
+
 
     }
 
