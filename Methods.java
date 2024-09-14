@@ -2,7 +2,6 @@ public class Methods {
 
     static String hello();
         return ("hello");
-        // return (109);
         String a = "Nashit";
         System.out.println(a);        
         int[] z = {1,2,3, 4, 5, 6, 7, 8, 9, 10};
