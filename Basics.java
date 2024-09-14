@@ -20,8 +20,3 @@ public class Basics {
 //        }
     }
 }
-
-/*
-* 1. When you know how many times loop will run, use for loop.
-* 2. When you don't know how many times loop will run, use while loop.
-* */
