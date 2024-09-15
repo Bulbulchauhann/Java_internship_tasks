@@ -10,7 +10,7 @@ public class Main {
         int n1, n2, sum;
         System.out.println("Enter 1st number:");
         n1 = in.nextInt();
-        System.out.println("Enter second number:");
+        System.out.println("Enter 2nd number:");
         n2 = in.nextInt();
         sum = n1 + n2;
 
