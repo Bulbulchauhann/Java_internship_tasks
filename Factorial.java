@@ -1,4 +1,4 @@
-//24-May-2024/ Task-3/ Finding factorial of a number
+24-May-2024/ Task-3/ Finding factorial of a number
 
 import java.util.Scanner;
 
