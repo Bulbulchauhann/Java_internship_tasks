@@ -12,7 +12,6 @@ public class SimpleInterest {
 
         System.out.print("Enter Time in Years :: ");
         float t = in.nextFloat();
-
         float SI = (p * r * t) / 100;
 
         System.out.println("Simple Interest is :: " + SI);
