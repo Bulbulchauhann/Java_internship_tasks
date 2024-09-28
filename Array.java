@@ -16,7 +16,7 @@ public class Array {
         //ArrayIndexOutOfBoundationException error
         // System.out.println(a.length);
 
-        // String[] a = {"Pooja", "Suraj", "Rahul", "Vivek"};
+        // String[] a = {"Pooja", "Suraj", "Rahul", "Bulbul"};
         // System.out.println(a);
         // System.out.println(a[1]);
         // System.out.println(a.length);
